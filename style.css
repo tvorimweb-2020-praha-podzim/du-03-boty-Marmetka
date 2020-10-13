@@ -4,7 +4,70 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
 }
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-left: 30px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+}
+
+.zaruka  {
+    font-size: 12px;
+    font-weight: 400; 
+    color: white;
+    text-align: right;
+}
+
+.nazev {
+    font-size: 20;
+    font-weight: 500;
+}
+
+.logo {
+    padding: 30px 30px;
+}
+
+.bota {
+    position: relative;
+    right: 50px;
+    top: -20px;
+}
+
+.kontejner {
+    padding: 70px 70px;
+}
+
+.zbozi {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    box-shadow: 5px 5px 5px slategrey;
+}
+
+.vizual {
+    order: 1;
+    flex-grow: 1;
+    color: #06d7c1;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 20px 0 0 20px;
+}
+
+.detaily {
+    order: 2;
+    flex-grow: 1;
+    border-radius: 0 20px 20px 0;
+}
+
 
 /*
  BARVY
@@ -21,3 +84,4 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
