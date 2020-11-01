@@ -63,6 +63,7 @@ body {
     width: 670px;
     height: 440px;
     box-shadow: 5px 5px 5px slategrey;
+    border-radius: 1rem;
 }
 
 .vizual {
